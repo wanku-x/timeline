@@ -1,20 +1,20 @@
 .link {
   border-radius: calc(var(--rem) * 0.5);
-  color: var(--color-button-default);
+  color: var(--color-button-primary);
 }
 
 .link:visited {
-  color: var(--color-button-default);
+  color: var(--color-button-primary);
 }
 
 .link:hover {
-  color: var(--color-button-hover);
+  color: var(--color-button-primary-hover);
 }
 
 .link:active {
-  color: var(--color-button-active);
+  color: var(--color-button-primary-active);
 }
 
 .link:focus {
-  outline: var(--rem) solid var(--color-button-focus);
+  outline: var(--rem) solid var(--color-button-primary-focus);
 }

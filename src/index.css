@@ -18,28 +18,28 @@
     --color-background: #fff;
     --color-accent: #40f;
 
-    --color-font-base: #222;
+    --color-font-base: #0d111c;
     --color-font-accent: #fff;
 
-    --color-button-default: #40f;
-    --color-button-hover: #45f;
-    --color-button-active: #30b;
-    --color-button-focus: #48f;
+    --color-button-primary: #40f;
+    --color-button-primary-hover: #6933ff;
+    --color-button-primary-active: #3c00e0;
+    --color-button-primary-focus: #9670ff;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #222;
+    --color-background: #0d111c;
     --color-accent: #40f;
 
     --color-font-base: #fff;
     --color-font-accent: #fff;
 
-    --color-button-default: #40f;
-    --color-button-hover: #45f;
-    --color-button-active: #30b;
-    --color-button-focus: #48f;
+    --color-button-primary: #40f;
+    --color-button-primary-hover: #6933ff;
+    --color-button-primary-active: #3c00e0;
+    --color-button-primary-focus: #9670ff;
   }
 }
 

@@ -7,25 +7,29 @@
   padding-left: calc(var(--rem) * 6);
   padding-right: calc(var(--rem) * 6);
 
-  background-color: var(--color-button-default);
+  margin-right: calc(var(--rem) * 2);
 
   font-family: var(--title-font);
   font-weight: 400;
   font-size: calc(var(--rem) * 4);
   line-height: calc(var(--rem) * 5.5);
-  color: var(--color-font-accent);
 
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: var(--color-button-hover);
+.button_primary {
+  background-color: var(--color-button-primary);
+  color: var(--color-font-accent);
 }
 
-.button:active {
-  background-color: var(--color-button-active);
+.button_primary:hover {
+  background-color: var(--color-button-primary-hover);
 }
 
-.button:focus {
-  outline: var(--rem) solid var(--color-button-focus);
+.button_primary:active {
+  background-color: var(--color-button-primary-active);
+}
+
+.button_primary:focus {
+  outline: var(--rem) solid var(--color-button-primary-focus);
 }
